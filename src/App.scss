@@ -1,4 +1,10 @@
-#root {
+* {
   box-sizing: border-box;
-  inset: 0;
+  scroll-behavior: smooth;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
 }
