@@ -1,0 +1,15 @@
+@use './color.scss' as *;
+
+html[data-theme='light'] {
+  --color-text: #{$text-color-1};
+  --color-background: #{$bg-color-1};
+  --color-btn: #{$btn-color-1};
+  --img: #{$bg-img-1};
+}
+
+html[data-theme='dark'] {
+  --color-text: #{$text-color-2};
+  --color-background: #{$bg-color-2};
+  --color-btn: #{$btn-color-2};
+  --img: #{$bg-img-2};
+}
