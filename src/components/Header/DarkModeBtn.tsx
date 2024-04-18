@@ -1,6 +1,6 @@
+import './DarkModeToggle.scss';
 import { Switch } from 'antd';
 import { BsMoonStarsFill, BsSunFill } from 'react-icons/bs';
-import './DarkModeToggle.scss';
 import { SwitchChangeEventHandler } from 'antd/es/switch';
 import { useState } from 'react';
 
