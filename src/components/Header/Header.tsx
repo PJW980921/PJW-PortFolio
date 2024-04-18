@@ -1,5 +1,6 @@
 import '../Header/Header.scss';
 import DarkModeBtn from './DarkModeBtn';
+import { IoMenu } from 'react-icons/io5';
 export default function Header() {
   return (
     <header className="header-container">
@@ -16,6 +17,7 @@ export default function Header() {
         </a>
       </div>
       <nav>
+        <IoMenu className="menu-toggle_btn" />
         <ul className="nav-box">
           <li>
             <a href="#AboutMe" className="nav-item">

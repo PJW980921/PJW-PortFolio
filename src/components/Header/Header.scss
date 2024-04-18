@@ -13,8 +13,27 @@
   border-color: var(--color-text);
   background-color: var(--color-background);
   z-index: 2;
+  @media (max-width: 767px) {
+    justify-content: space-around;
+    gap: 10rem;
+  }
+
+  @media (max-width: 1500px) {
+    gap: 5rem;
+  }
 }
 
+.menu-toggle_btn {
+  display: none;
+  @media (max-width: 767px) {
+    display: flex;
+    color: var(--color-text);
+    font-size: 2rem;
+    border: 0.1rem solid;
+    border-radius: 2rem;
+    border-color: var(--color-text);
+  }
+}
 .logo-box {
   display: flex;
   justify-content: center;
@@ -32,6 +51,9 @@
   justify-content: center;
   gap: 5rem;
   list-style: none;
+  @media (max-width: 767px) {
+    display: none;
+  }
 }
 
 .nav-item {
