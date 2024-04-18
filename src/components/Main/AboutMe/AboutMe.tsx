@@ -5,6 +5,7 @@ import { SiGmail } from 'react-icons/si';
 import { FaRegUser } from 'react-icons/fa';
 import { FaRegCalendarAlt } from 'react-icons/fa';
 import { IoLocationOutline } from 'react-icons/io5';
+import { FcAbout } from 'react-icons/fc';
 export default function AboutMe() {
   return (
     <>
@@ -49,7 +50,10 @@ export default function AboutMe() {
             </div>
           </div>
           <div className="profile-info_container">
-            <h1 className="profile-info_title">About Me</h1>
+            <h1 className="profile-info_title">
+              <FcAbout />
+              About Me
+            </h1>
             <ul className="profile-info_box">
               <li className="info-item">
                 <div className="info-item_title">
@@ -76,13 +80,27 @@ export default function AboutMe() {
               </li>
             </ul>
             <div className="profile-text">
-              안녕하세요. 저는 동료들과 원활한 소통을 중요하게 생각하며, 함께
-              생각을 나누고 피드백을 받으며 부족한점을 보완했습니다.
+              안녕하세요.
               <br />
-              이런 과정을 통해 실력을 향상시키고 프로젝트 경험을 쌓으며
+              어린 시절 호기심에 오픈소스로 유틸리티 프로그램을
+              <br /> 개발하여 친구들에게 공유하고 사용하는데 재미를 느껴
               <br />
-              성장하고있습니다.이러한 경험을 바탕으로
-              <br /> 회사에 많은 기여를 하는 개발자가 되고자 합니다.
+              개발자를 꿈꾸게 되었습니다.
+              <br />
+              현재는 프론트엔드 개발자가 되고자 꾸준히 학습한 내용들을 정리하여{' '}
+              <br />
+              <a
+                className="profile-text_link"
+                href="https://velog.io/@jackgg12322/posts"
+                target="_blank"
+              >
+                개인 블로그
+              </a>
+              에 작성중입니다.
+              <br />
+              항상 배우는 자세로 임하고 제 역량을 발휘하여 회사에 많은 기여를
+              하는 <br />
+              개발자가 되겠습니다. 감사합니다.
             </div>
           </div>
         </div>
