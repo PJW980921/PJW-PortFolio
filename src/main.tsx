@@ -1,9 +1,11 @@
+import { ReactNode } from 'react';
 import App from './App';
-import { hydrate, render } from 'react-dom';
-const rootElement = document.getElementById('root');
+import { hydrateRoot } from 'react-dom/client';
+const domNode = document.getElementById('root') as HTMLElement;
+const root = hydrateRoot(domNode, document.getElementById('root') as ReactNode);
 
-if (rootElement?.hasChildNodes()) {
-  hydrate(<App />, rootElement);
+if (domNode?.hasChildNodes()) {
+  hydrateRoot(domNode, <App />);
 } else {
-  render(<App />, rootElement);
+  root.render(<App />);
 }
