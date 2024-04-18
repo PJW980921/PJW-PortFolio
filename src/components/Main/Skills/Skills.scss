@@ -1,0 +1,59 @@
+@use '../../../themes.scss';
+
+.skills-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 10rem;
+  margin-bottom: 5rem;
+  padding: 0 3.2rem;
+}
+
+.skills-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  font-family: 'JalnanGothic';
+  font-size: 3rem;
+  border-bottom: 0.1rem solid;
+  color: var(--color-text);
+  padding-top: 5rem;
+}
+
+.front-end_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+}
+.front-end_box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.front-end_box:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.skills-img {
+  width: 35rem;
+  height: 10rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem;
+  border-radius: 2rem;
+}
+
+.front-end_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  font-family: 'JalnanGothic';
+  font-size: 3rem;
+  color: var(--color-text);
+  padding-top: 3rem;
+}
