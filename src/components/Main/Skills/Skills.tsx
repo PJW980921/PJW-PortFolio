@@ -3,12 +3,12 @@ import { IoHammerOutline } from 'react-icons/io5';
 
 export default function Skills() {
   return (
-    <>
+    <section>
       <h1 id="Skills" className="skills-title">
         <IoHammerOutline />
         Skills
       </h1>
-      <section className="skills-container">
+      <div className="skills-container">
         <div className="front-end_container">
           <div className="front-end_box">
             <h1 className="front-end_title">Publishing</h1>
@@ -67,7 +67,7 @@ export default function Skills() {
             />
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 }
