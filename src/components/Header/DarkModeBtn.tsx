@@ -22,7 +22,6 @@ const DarkModeBtn = () => {
 
   return (
     <Switch
-      type="button"
       id="button"
       title="DarkModeButton"
       onChange={handleDarkModeChange}
