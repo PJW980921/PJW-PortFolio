@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import '../Skills/Skills.scss';
 import { IoHammerOutline } from 'react-icons/io5';
 interface SkillsProps {
+  id: number;
   title: string;
   image: string;
   alt: string;
@@ -27,7 +28,7 @@ export default function Skills() {
         <div className="front-end_container">
           {skillList.map((item) => {
             return (
-              <div className="front-end_box">
+              <div className="front-end_box" key={item.id}>
                 <h1 className="front-end_title">{item.title}</h1>
                 <img src={item.image} className="skills-img" alt={item.alt} />
               </div>
