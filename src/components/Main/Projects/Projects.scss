@@ -2,11 +2,93 @@
 
 .projects-container {
   width: 100%;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 10rem;
+  color: var(--color-text);
+  background-color: var(--container-color);
+  overflow: hidden;
+}
+
+.projects-article {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.projects-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  font-family: 'JalnanGothic';
+  font-size: 5rem;
+  color: var(--color-text);
+  padding: 5rem 0;
+}
+
+.projects-box {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 10rem;
-  font-size: 10rem;
-  background-color: var(--container-color);
+  align-items: center;
+  background-color: var(--project-container);
+  border-radius: 2rem;
+  width: 80rem;
+  height: 50rem;
+  @media (max-width: 1500px) {
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+  }
+}
+
+.projects-box_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1rem;
+}
+
+.projects-box_title {
+  font-size: 2rem;
+  font-family: 'JalnanGothic';
+}
+
+.projects-box_img_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 3.2rem;
+}
+
+.projects-box_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 2rem;
+  @media (max-width: 1500px) {
+    width: 100%;
+    height: 100%;
+  }
+}
+.projects-description_container {
+  width: 30rem;
+  font-size: 2rem;
+  @media (max-width: 1500px) {
+    width: 100%;
+    height: 100%;
+  }
+}
+.projects-links {
+  display: flex;
+  flex-direction: row;
+  font-size: 2.5rem;
+  gap: 1rem;
 }
