@@ -12,7 +12,10 @@
   },
   "reactSnap": {
     "include": [
-      "/"
+      "/",
+      "/#AboutMe",
+      "/#Skills",
+      "/#Projects"
     ]
   },
   "dependencies": {
