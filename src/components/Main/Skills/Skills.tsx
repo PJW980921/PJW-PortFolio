@@ -17,7 +17,7 @@ export default function Skills() {
       .then((data) => {
         setSkillList(data);
       });
-  });
+  }, []);
   return (
     <section>
       <h1 id="Skills" className="skills-title">
