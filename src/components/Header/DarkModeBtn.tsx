@@ -24,7 +24,7 @@ const DarkModeBtn = () => {
     <Switch
       type="button"
       id="button"
-      aria-label="DarkModeButton"
+      title="DarkModeButton"
       onChange={handleDarkModeChange}
       checkedChildren={<BsSunFill className=".icon" />}
       unCheckedChildren={<BsMoonStarsFill className=".icon" />}
