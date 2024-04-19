@@ -3,8 +3,8 @@
     "id": 1,
     "image": "image/svgs/portfolio.svg",
     "title": "PortFolio - 웹 포트폴리오",
-    "description": "포트폴리오 용도로 제작한 웹사이트입니다.시맨틱태그에 대해 깊이 학습하고자 시맨틱태그를 준수하여코드를 작성했습니다. 다뤄보지못한 SASS에 학습하고자SASS(SCSS)로 스타일링 했습니다. 깔끔한 코드를 작성하고자 목업데이터를 생성하여 useEffect를 활용했습니다. 사용자가 보기 편한 UI를 구현하고자 반응형 디자인을 기획하게 되었습니다. SEO 최적화 불가능한 CSR의 단점을 라이브러리를 활용하여 보완했습니다. Lighthouse 로 웹 페이지를 분석하여 보완할점을 개선했습니다.",
-    "stacks": "React+Vite, TypeScript, SASS(SCSS)",
+    "description": "포트폴리오 용도로 제작한 웹사이트입니다.프로젝트 작업을 진행하면서 useEffect의 기능에 대해 전보다 조금 더 능숙해졌으며 다뤄보지 못했던 SASS(SCSS)를 활용하여 UI를 디자인 했습니다. 또한 React의 단점을 보완하고자 Lighthouse로 웹페이지를 분석 및 개선을 했고 SEO최적화에 대해 경험하게 되었습니다.",
+    "stacks": "React+Vite, TypeScript, SASS",
     "github": "https://github.com/PJW980921/PJW-PortFolio",
     "site": "https://www.pjw-Portfolio.vercel.app"
   },
@@ -12,7 +12,7 @@
     "id": 2,
     "image": "image/svgs/yumu.svg",
     "title": "YUMU - 실시간 경매 사이트(라이브 커머스)",
-    "description": "포트폴리오 용도로 제작한 웹사이트입니다. 지금 보고 있는 바로 이 웹사이트에 해당합니다.이미 순수 React로 개발을 완료한 프로젝트였지만, Next.js의 학습을 위해 이를 Next.js로 다시 개발하였습니다. 그 과정에서 서버 사이드 렌더링을 함께 지원하는 Next.js의 위대함을 느낄 수 있었습니다. 또한, Vercel을 이용하여 정적 웹사이트의 Lean한 배포도 경험해볼 수 있었습니다.",
+    "description": "아마추어 예술가들은 처리가 곤란한 자신의 작품을 경매로 선보여 뒷처리와 금전, 자기 어필의 기회를 얻고  일반 사용자들은 마음에 드는 작품을 비교적 저렴한 가격에 구매할 수 있는 기회를 얻는 웹 서비스를 기획하게되었습니다.동료분들과 소통 및 피드백을 통해 저의 단점을 보완 해 왔으며, 이 프로젝트를 통해 React-query로 상태관리 및 무한스크롤에 대해 학습하게 되었습니다. 또한 shadcn/ui 및 각종 라이브러리의 편리함을 몸소 느꼈습니다.",
     "stacks": "TypeScript, Next.js, React-query, shadcn/ui, React-hook-form, Tailwind, Aixos",
     "github": "https://github.com/Team-YUMU/YUMU-FE",
     "site": "https://yu-mu.vercel.app"
@@ -21,7 +21,7 @@
     "id": 3,
     "image": "image/svgs/taskify.svg",
     "title": "Taskify - 모달 기반 일정 관리 사이트",
-    "description": "포트폴리오 용도로 제작한 웹사이트입니다. 지금 보고 있는 바로 이 웹사이트에 해당합니다.이미 순수 React로 개발을 완료한 프로젝트였지만, Next.js의 학습을 위해 이를 Next.js로 다시 개발하였습니다. 그 과정에서 서버 사이드 렌더링을 함께 지원하는 Next.js의 위대함을 느낄 수 있었습니다. 또한, Vercel을 이용하여 정적 웹사이트의 Lean한 배포도 경험해볼 수 있었습니다.",
+    "description": "스마트하게 그룹 일정을 관리할 수 있으며,일정 내 구분 제공 및 담당자 지정으로 세부적인 일정관리가 가능한 웹 서비스입니다.(수정 중입니다)",
     "stacks": "TypeScript, Next.js, React-hook-form, Aixos",
     "github": "https://github.com/PJW980921/codeit-top-secret-X",
     "site": "https://codeit-top-secret-x.vercel.app"
@@ -30,7 +30,7 @@
     "id": 4,
     "image": "image/svgs/rolling.svg",
     "title": "Rolling - 롤링 페이퍼 웹 플랫폼",
-    "description": "포트폴리오 용도로 제작한 웹사이트입니다. 지금 보고 있는 바로 이 웹사이트에 해당합니다.이미 순수 React로 개발을 완료한 프로젝트였지만, Next.js의 학습을 위해 이를 Next.js로 다시 개발하였습니다. 그 과정에서 서버 사이드 렌더링을 함께 지원하는 Next.js의 위대함을 느낄 수 있었습니다. 또한, Vercel을 이용하여 정적 웹사이트의 Lean한 배포도 경험해볼 수 있었습니다.",
+    "description": "추억의 롤링 페이퍼를 웹 상에서도 즐길 수 있는 웹 서비스입니다.(수정 중입니다)",
     "stacks": "React.js, styled-component",
     "github": "https://github.com/PJW980921/team-12-rolling",
     "site": "https://fluffy-shortbread-07838a.netlify.app/"
@@ -39,7 +39,7 @@
     "id": 5,
     "image": "image/svgs/hourly-todo-list.svg",
     "title": "HourlyTodoList - 시간 별 할일 목록 웹 플랫폼",
-    "description": "포트폴리오 용도로 제작한 웹사이트입니다. 지금 보고 있는 바로 이 웹사이트에 해당합니다.이미 순수 React로 개발을 완료한 프로젝트였지만, Next.js의 학습을 위해 이를 Next.js로 다시 개발하였습니다. 그 과정에서 서버 사이드 렌더링을 함께 지원하는 Next.js의 위대함을 느낄 수 있었습니다. 또한, Vercel을 이용하여 정적 웹사이트의 Lean한 배포도 경험해볼 수 있었습니다.",
+    "description": "시간 별로 할일을 계획할 수 있는 웹 서비스입니다.(수정 중입니다)",
     "stacks": "TypeScript, Next.js, Tailwind, react-hook-form",
     "github": "https://github.com/PJW980921/HourlyTodoList",
     "site": "https://hourly-todo-list.vercel.app/"
