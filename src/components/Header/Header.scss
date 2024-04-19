@@ -23,6 +23,12 @@
   }
 }
 
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
 .menu-toggle_btn {
   display: none;
   @media (max-width: 767px) {

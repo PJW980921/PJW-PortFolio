@@ -27,6 +27,7 @@ export default function AboutMe() {
               className="icon-item"
               id="gmail"
               target="_blank"
+              aria-label="Gmail"
             >
               <SiGmail />
             </a>
@@ -35,6 +36,7 @@ export default function AboutMe() {
               className="icon-item"
               id="velog"
               target="_blank"
+              aria-label="Velog"
             >
               <SiVelog />
             </a>
@@ -43,6 +45,7 @@ export default function AboutMe() {
               className="icon-item"
               id="github"
               target="_blank"
+              aria-label="GitHub"
             >
               <FaSquareGithub />
             </a>
