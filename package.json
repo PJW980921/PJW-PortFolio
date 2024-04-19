@@ -13,10 +13,8 @@
   "reactSnap": {
     "source": "./dist",
     "include": [
-      "/",
-      "/#AboutMe",
-      "/#Skills",
-      "/#Projects"
+      "/index",
+      "/"
     ]
   },
   "dependencies": {
