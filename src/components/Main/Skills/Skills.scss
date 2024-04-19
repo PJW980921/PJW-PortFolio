@@ -42,10 +42,15 @@
   transform: scale(1.1);
   transition: all 0.5s ease;
 }
-
-.skills-img {
-  width: 35rem;
+.skills-img_box {
+  width: 30rem;
   height: 10rem;
+  border-radius: 2rem;
+  background: #ffffff;
+}
+.skills-img {
+  width: 100%;
+  height: 100%;
   box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem;
   border-radius: 2rem;
   @media (max-width: 768px) {

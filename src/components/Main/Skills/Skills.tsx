@@ -30,7 +30,9 @@ export default function Skills() {
             return (
               <div className="front-end_box" key={item.id}>
                 <h1 className="front-end_title">{item.title}</h1>
-                <img src={item.image} className="skills-img" alt={item.alt} />
+                <div className="skills-img_box">
+                  <img src={item.image} className="skills-img" alt={item.alt} />
+                </div>
               </div>
             );
           })}
