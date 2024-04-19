@@ -1,40 +1,48 @@
 [
   {
+    "id": 1,
     "title": "Publishing",
     "image": "image/publish-img.png",
     "alt": "퍼블리싱 기술 스택 이미지"
   },
   {
+    "id": 2,
     "title": "FrameWorks",
     "image": "image/frameWorks-img.png",
     "alt": "프레임워크 기술 스택 이미지"
   },
   {
+    "id": 3,
     "title": "Styles",
     "image": "image/styles-img.png",
     "alt": "스타일 기술 스택 이미지"
   },
   {
+    "id": 4,
     "title": "Libraries",
     "image": "image/libs-img.png",
     "alt": "라이브러리 기술 스택 이미지"
   },
   {
+    "id": 5,
     "title": "Lints",
     "image": "image/lints-img.png",
     "alt": "린트 기술 스택 이미지"
   },
   {
+    "id": 6,
     "title": "Version Control",
     "image": "image/version-control-img.png",
     "alt": "버전 컨트롤 기술 스택 이미지"
   },
   {
+    "id": 7,
     "title": "Communication",
     "image": "image/communication-img.png",
     "alt": "커뮤니케이션 기술 스택 이미지"
   },
   {
+    "id": 8,
     "title": "Deployment",
     "image": "image/deployment-img.png",
     "alt": "디플로이먼트 기술 스택 이미지"
