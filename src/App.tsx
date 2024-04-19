@@ -1,19 +1,17 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import './App.scss';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 
 function App() {
+  const [themeToggleData, setThemeToggleData] = useState('light');
   useEffect(() => {
-    if (document.documentElement.getAttribute('data-theme')) {
-      document.documentElement.setAttribute('data-theme', 'light');
-      localStorage.setItem('data-theme', 'light');
-    } else {
-      localStorage.getItem('data-theme');
-    }
     const getSaveDarkModeData = localStorage.getItem('data-theme') as string;
-    document.documentElement.setAttribute('data-theme', getSaveDarkModeData);
-  }, []);
+    document.documentElement.setAttribute('data-theme', themeToggleData);
+    if (getSaveDarkModeData === 'dark') {
+      setThemeToggleData('dark');
+    }
+  }, [themeToggleData]);
 
   return (
     <div className="app-container">
