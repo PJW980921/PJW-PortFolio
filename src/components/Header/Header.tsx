@@ -16,7 +16,7 @@ export default function Header() {
           PJW`s Portfolio
         </a>
       </div>
-      <nav>
+      <nav className="nav-container">
         <IoMenu className="menu-toggle_btn" />
         <ul className="nav-box">
           <li>
@@ -34,8 +34,8 @@ export default function Header() {
               Projects
             </a>
           </li>
-          <DarkModeBtn />
         </ul>
+        <DarkModeBtn />
       </nav>
     </header>
   );
