@@ -6,6 +6,7 @@ html[data-theme='light'] {
   --img: #{$bg-img-dark};
   --container-color: #{$container-light};
   --project-container: #{$project-container_light};
+  --project-links: #{$project-links-light};
 }
 
 html[data-theme='dark'] {
@@ -14,4 +15,5 @@ html[data-theme='dark'] {
   --img: #{$bg-img-light};
   --container-color: #{$container-dark};
   --project-container: #{$project-container_dark};
+  --project-links: #{$project-links-dark};
 }
