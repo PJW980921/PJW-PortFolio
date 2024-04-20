@@ -37,7 +37,7 @@
   background-color: var(--project-container);
   border-radius: 2rem;
   width: 80rem;
-  height: 50rem;
+  height: 70vh;
   box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem gray;
   @media (max-width: 1500px) {
     width: 80%;
@@ -80,8 +80,14 @@
   }
 }
 .projects-description_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 30rem;
   font-size: 2rem;
+  gap: 3rem;
+  word-wrap: break-all;
   @media (max-width: 1500px) {
     width: 100%;
     height: 100%;
@@ -90,6 +96,14 @@
 .projects-links {
   display: flex;
   flex-direction: row;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   gap: 1rem;
+}
+
+.projects-box_github:hover {
+  color: #999999;
+}
+
+.projects-box_site_box:hover {
+  color: #999999;
 }

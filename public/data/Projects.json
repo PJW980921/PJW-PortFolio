@@ -21,8 +21,7 @@
     "id": 3,
     "image": "image/svgs/taskify.svg",
     "title": "Taskify - 모달 기반 일정 관리 사이트",
-    "description": "스마트하게 그룹 일정을 관리할 수 있으며,일정 내 구분 제공 및 담당자 지정으로 세부적인 일정관리가 가능한 웹 서비스입니다.(수정 중입니다)",
-    "stacks": "TypeScript, Next.js, React-hook-form, Aixos",
+    "description": "스마트하게 그룹 일정을 관리할 수 있는 웹 서비스를 개발 했습니다. 이 서비스는 일정을 세부적으로 관리하고 구분하며, 담당자를 지정할 수 있는 기능을 제공합니다. 주요 기술 스택으로는 TypeScript, Next.js, React-hook-form, Aixos를 사용했습니다.프로젝트를 진행하면서 React hook을 사용함으로써 개발이 훨씬 편리해졌고, axios를 통한 비동기 통신 처리에 대해 깊이 이해할 수 있었습니다. 또한, Git을 효율적으로 활용하는 능력이 크게 향상되었습니다.",
     "github": "https://github.com/PJW980921/codeit-top-secret-X",
     "site": "https://codeit-top-secret-x.vercel.app"
   },
@@ -30,8 +29,7 @@
     "id": 4,
     "image": "image/svgs/rolling.svg",
     "title": "Rolling - 롤링 페이퍼 웹 플랫폼",
-    "description": "추억의 롤링 페이퍼를 웹 상에서도 즐길 수 있는 웹 서비스입니다.(수정 중입니다)",
-    "stacks": "React.js, styled-component",
+    "description": "추억의 롤링 페이퍼를 웹에서도 즐길 수 있는 서비스를 개발 하였습니다. 주요 기술 스택으로는 React.js와 styled-components를 사용하고 있습니다.이 프로젝트를 통해 저는 처음으로 협업을 경험하며, CSS-in-JS에 대해 알게 되었습니다. 또한 React의 상태 관리와 Props에 대해 배우고, 팀원들과 소통하며 피드백을 주고 받으며 코드를 수정해 나가는 과정에서 많은 성장을 이루었습니다. 라이브러리를 사용하지 않고도 캐러셀을 구현해보는 등 새로운 기술을 시도하고 경험하는 것은 매우 유익한 경험이었습니다.",
     "github": "https://github.com/PJW980921/team-12-rolling",
     "site": "https://fluffy-shortbread-07838a.netlify.app/"
   },
@@ -39,8 +37,7 @@
     "id": 5,
     "image": "image/svgs/hourly-todo-list.svg",
     "title": "HourlyTodoList - 시간 별 할일 목록 웹 플랫폼",
-    "description": "시간 별로 할일을 계획할 수 있는 웹 서비스입니다.(수정 중입니다)",
-    "stacks": "TypeScript, Next.js, Tailwind, react-hook-form",
+    "description": "저는 시간 별로 할 일을 계획할 수 있는 웹 서비스를 개발 중입니다. 주요 기술 스택으로는 TypeScript, Next.js, Tailwind, react-hook-form을 사용하고 있습니다.이 프로젝트를 기획한 이유는 번아웃을 예방하고자 하는 의도였습니다. 나태해지지 않기 위해 개인 프로젝트를 시작하게 되었고, 이를 통해 다양한 라이브러리를 경험할 수 있었습니다. 또한, 처음으로 혼자서 기획부터 설정 및 구현까지를 경험하면서 많은 성장을 이루었습니다.",
     "github": "https://github.com/PJW980921/HourlyTodoList",
     "site": "https://hourly-todo-list.vercel.app/"
   }

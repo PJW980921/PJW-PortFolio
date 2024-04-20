@@ -8,7 +8,6 @@ interface ProjectsProps {
   image: string;
   title: string;
   description: string;
-  stacks: string;
   github: string;
   site: string;
 }
@@ -43,14 +42,10 @@ export default function Projects() {
                   height={200}
                 />
               </div>
+
               <div className="projects-description_container">
                 <div className="projects-box_description_box">
                   <p className="projects-box_description">{item.description}</p>
-                </div>
-                <div className="projects-box_stacks_box">
-                  <p className="projects-box_stacks">
-                    주요 기술 스택 : {item.stacks}
-                  </p>
                 </div>
                 <div className="projects-links">
                   <div className="projects-box_github_box">
