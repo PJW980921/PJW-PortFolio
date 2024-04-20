@@ -1,7 +1,14 @@
+import { useState } from 'react';
 import '../Header/Header.scss';
 import DarkModeBtn from './DarkModeBtn';
 import { IoMenu } from 'react-icons/io5';
+import DropdownMenu from './DropdownMenu';
 export default function Header() {
+  const [dropdownState, setDropdownState] = useState(false);
+
+  const handleDropdownMenu = () => {
+    setDropdownState(!dropdownState);
+  };
   return (
     <header className="header-container">
       <div className="logo-box">
@@ -17,7 +24,10 @@ export default function Header() {
         </a>
       </div>
       <nav className="nav-container">
-        <IoMenu className="menu-toggle_btn" />
+        <div>
+          <IoMenu className="menu-toggle_btn" onClick={handleDropdownMenu} />
+          {dropdownState && <DropdownMenu />}
+        </div>
         <ul className="nav-box">
           <li>
             <a href="#AboutMe" className="nav-item">

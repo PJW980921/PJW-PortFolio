@@ -32,6 +32,7 @@
 .menu-toggle_btn {
   display: none;
   @media (max-width: 767px) {
+    position: relative;
     display: flex;
     color: var(--color-text);
     font-size: 2rem;
