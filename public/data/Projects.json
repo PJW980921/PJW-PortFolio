@@ -6,7 +6,7 @@
     "description": "포트폴리오 용도로 제작한 웹사이트입니다.프로젝트 작업을 진행하면서    useEffect의 기능에 대해 전보다 조금 더 능숙해졌으며 다뤄보지 못했던 SASS    (SCSS)를 활용하여 UI를 디자인 했습니다. 또한 React의 단점을 보완하고자 Lighthouse로 웹페이지를 분석 및 개선을 했고 SEO최적화에 대해 경험하게 되었습니다.",
     "stacks": "React+Vite, TypeScript, SASS",
     "github": "https://github.com/PJW980921/PJW-PortFolio",
-    "site": "https://www.pjw-Portfolio.vercel.app"
+    "site": "https://pjwportfolio.netlify.app/"
   },
   {
     "id": 2,
