@@ -37,7 +37,7 @@
     "id": 5,
     "image": "image/svgs/hourly-todo-list.svg",
     "title": "HourlyTodoList - 시간 별 할일 목록 웹 플랫폼",
-    "description": "저는 시간 별로 할 일을 계획할 수 있는 웹 서비스를 개발 중입니다. 주요 기술 스택으로는 TypeScript, Next.js, Tailwind, react-hook-form을 사용하고 있습니다.이 프로젝트를 기획한 이유는 번아웃을 예방하고자 하는 의도였습니다. 나태해지지 않기 위해 개인 프로젝트를 시작하게 되었고, 이를 통해 다양한 라이브러리를 경험할 수 있었습니다. 또한, 처음으로 혼자서 기획부터 설정 및 구현까지를 경험하면서 많은 성장을 이루었습니다.",
+    "description": "저는 시간 별로 할 일을 계획할 수 있는 웹 서비스를 개발 중입니다. 주요 기술 스택으로는 TypeScript, Next.js, Tailwind, react-hook-form을 사용하고 있습니다.이 프로젝트를 기획한 이유는 번아웃을 예방하고자 하는 의도였습니다.또한, 학습 및 복습을 위해 개인 프로젝트를 시작하게 되었고, 이를 통해 다양한 라이브러리를 경험할 수 있었습니다. 처음으로 혼자서 기획부터 설정 및 구현까지를 경험하면서 많은 성장을 이루었습니다.",
     "github": "https://github.com/PJW980921/HourlyTodoList",
     "site": "https://hourly-todo-list.vercel.app/"
   }
