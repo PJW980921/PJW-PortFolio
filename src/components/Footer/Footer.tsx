@@ -13,6 +13,7 @@ export default function Footer() {
             href="https://www.linkedin.com/in/pjw980921/"
             className="item-link"
             target="_blank"
+            aria-label="Linkedin"
           >
             <FaLinkedin />
           </a>
@@ -22,6 +23,7 @@ export default function Footer() {
             href="https://github.com/PJW980921"
             className="item-link"
             target="_blank"
+            aria-label="GitHub"
           >
             <FaGithubSquare />
           </a>
@@ -31,6 +33,7 @@ export default function Footer() {
             href="mailto:jackgg12322@gmail.com"
             className="item-link"
             target="_blank"
+            aria-label="Gmail"
           >
             <SiGmail />
           </a>
@@ -40,6 +43,7 @@ export default function Footer() {
             href="https://www.instagram.com/pjw98__/"
             className="item-link"
             target="_blank"
+            aria-label="instagram"
           >
             <FaSquareInstagram />
           </a>
