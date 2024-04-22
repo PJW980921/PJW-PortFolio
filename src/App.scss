@@ -1,4 +1,5 @@
 @use './themes.scss' as *;
+@import './mixin';
 
 @font-face {
   font-family: 'JalnanGothic';
@@ -36,4 +37,89 @@ a {
 .app-container {
   display: flex;
   flex-direction: column;
+}
+
+// 데스크탑
+@include desktop {
+  .header-container {
+  }
+
+  .main-container {
+  }
+
+  .footer-container {
+  }
+}
+
+// 노트북에서 데스크탑
+@include desktopToLaptop {
+  .header-container {
+    padding: 0 3.2rem;
+  }
+
+  .main-container {
+  }
+
+  .footer-container {
+  }
+}
+
+// 노트북
+@include laptop {
+  .header-container {
+  }
+
+  .main-container {
+  }
+
+  .footer-container {
+  }
+}
+
+// 태블릿에서 노트북
+@include laptopToTablet {
+  .header-container {
+  }
+
+  .main-container {
+  }
+
+  .footer-container {
+  }
+}
+
+// 태블릿
+@include tablet {
+  .header-container {
+  }
+
+  .main-container {
+  }
+
+  .footer-container {
+  }
+}
+
+// 모바일에서 태블릿
+@include tabletToMobile {
+  .header-container {
+  }
+
+  .main-container {
+  }
+
+  .footer-container {
+  }
+}
+
+// 모바일
+@include mobile {
+  .header-container {
+  }
+
+  .main-container {
+  }
+
+  .footer-container {
+  }
 }
