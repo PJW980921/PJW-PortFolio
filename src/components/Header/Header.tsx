@@ -44,6 +44,11 @@ export default function Header() {
               Projects
             </a>
           </li>
+          <li>
+            <a href="#ContactMe" className="nav-item">
+              Contact Me
+            </a>
+          </li>
         </ul>
         <DarkModeBtn />
       </nav>

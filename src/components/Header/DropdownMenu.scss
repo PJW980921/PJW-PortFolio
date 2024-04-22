@@ -2,9 +2,10 @@
   display: flex;
   position: absolute;
   top: 4rem;
-  background: #000;
+  right: 3rem;
   border: 0.1rem solid;
   border-radius: 0.8rem;
+  background: var(--color-background);
   font-family: 'JalnanGothic';
   @media (min-width: 767px) and (max-width: 1500px) {
     display: none;
@@ -17,9 +18,7 @@
   justify-content: center;
   align-items: center;
   list-style: none;
-  gap: 2rem;
-  border: 0.1rem solid;
-  border-radius: 2rem;
+  gap: 1rem;
   @media (min-width: 767px) and (max-width: 1500px) {
     display: none;
   }
