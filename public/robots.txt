@@ -1,7 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow: /cgi-bin/
-Disallow: /tmp/
-Disallow: /~joe/
+Allow:/
 Sitemap: https://pjwportfolio.netlify.app/sitemap.xml
 
