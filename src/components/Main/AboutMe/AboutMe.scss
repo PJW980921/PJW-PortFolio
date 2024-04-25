@@ -15,15 +15,16 @@
 
 .profile-container {
   display: flex;
+  width: 90%;
   flex-direction: row;
-  padding-top: 2.5rem;
   text-align: center;
   justify-content: space-around;
   border-radius: 2rem;
-  width: 80%;
-  height: 40rem;
   background-color: rgba(249, 249, 249, 0.6);
   padding: 0 2rem;
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
 }
 
 .profile-box {
@@ -71,7 +72,7 @@
   font-size: 2.5rem;
   top: 20rem;
   left: 63rem;
-  transform: translateX(-52rem) rotate(-25deg) translateY(10rem);
+  transform: translateX(-62rem) rotate(-25deg) translateY(11rem);
   border: 0.1rem solid;
   background-color: rgba(203, 203, 203, 0.7);
   border-radius: 1rem;

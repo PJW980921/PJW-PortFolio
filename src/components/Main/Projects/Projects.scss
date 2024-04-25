@@ -4,7 +4,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  font-size: 10rem;
+  font-size: 2rem;
   color: var(--color-text);
   background-color: var(--container-color);
   overflow: hidden;
@@ -33,12 +33,13 @@
 
 .projects-box {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--project-container);
   border-radius: 2rem;
-  height: 70vh;
+  width: 80%;
+  gap: 2.5rem;
   box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem gray;
 }
 
@@ -66,8 +67,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40rem;
-  height: 40rem;
+  width: 100%;
+  height: 35rem;
   border-radius: 2rem;
 }
 .projects-description_container {
@@ -75,15 +76,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 30rem;
-  font-size: 2rem;
   gap: 3rem;
   word-break: break-all;
 }
 .projects-links {
   display: flex;
   flex-direction: row;
-  font-size: 3.5rem;
   gap: 1rem;
 }
 
