@@ -19,24 +19,22 @@ export default function Skills() {
       });
   }, []);
   return (
-    <section>
+    <section className="skills-container">
       <h1 id="Skills" className="skills-title">
         <IoHammerOutline />
         Skills
       </h1>
-      <div className="skills-container">
-        <div className="front-end_container">
-          {skillList.map((item) => {
-            return (
-              <div className="front-end_box" key={item.id}>
-                <h1 className="front-end_title">{item.title}</h1>
-                <div className="skills-img_box">
-                  <img src={item.image} className="skills-img" alt={item.alt} />
-                </div>
+      <div className="front-end_container">
+        {skillList.map((item) => {
+          return (
+            <div className="front-end_box" key={item.id}>
+              <h1 className="front-end_title">{item.title}</h1>
+              <div className="skills-img_box">
+                <img src={item.image} className="skills-img" alt={item.alt} />
               </div>
-            );
-          })}
-        </div>
+            </div>
+          );
+        })}
       </div>
     </section>
   );
