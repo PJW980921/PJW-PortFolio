@@ -14,8 +14,7 @@
   background-color: var(--color-background);
   z-index: 2;
   @media (max-width: 767px) {
-    justify-content: space-around;
-    gap: 10rem;
+    gap: 5rem;
   }
 }
 
