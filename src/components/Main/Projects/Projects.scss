@@ -41,11 +41,6 @@
   width: 80rem;
   height: 70vh;
   box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem gray;
-  @media (max-width: 1500px) {
-    width: 80%;
-    height: 100%;
-    flex-direction: column;
-  }
 }
 
 .projects-box_item {
@@ -76,10 +71,6 @@
   width: 40rem;
   height: 40rem;
   border-radius: 2rem;
-  @media (max-width: 1500px) {
-    width: 100%;
-    height: 100%;
-  }
 }
 .projects-description_container {
   display: flex;
@@ -90,10 +81,6 @@
   font-size: 2rem;
   gap: 3rem;
   word-break: break-all;
-  @media (max-width: 1500px) {
-    width: 100%;
-    height: 100%;
-  }
 }
 .projects-links {
   display: flex;
