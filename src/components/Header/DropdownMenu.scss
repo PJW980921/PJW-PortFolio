@@ -19,7 +19,7 @@
   align-items: center;
   list-style: none;
   gap: 1rem;
-  @media (min-width: 767px) and (max-width: 1500px) {
+  @media (min-width: 767px) {
     display: none;
   }
 }
