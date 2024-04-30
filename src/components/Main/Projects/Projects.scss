@@ -1,100 +1,100 @@
 @use '../../../themes.scss';
 
 .projects-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  font-size: 2rem;
-  color: var(--color-text);
-  background-color: var(--container-color);
-  overflow: hidden;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	font-size: 2rem;
+	color: var(--color-text);
+	background-color: var(--container-color);
+	overflow: hidden;
 }
 
 .projects-article {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
-  padding-bottom: 5rem;
-  gap: 3rem;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	padding-bottom: 5rem;
+	gap: 3rem;
 }
 
 .projects-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 0.5rem;
-  font-family: 'JalnanGothic';
-  font-size: 5rem;
-  color: var(--color-text);
-  padding: 5rem 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 0.5rem;
+	font-family: 'JalnanGothic';
+	font-size: 5rem;
+	color: var(--color-text);
+	padding: 5rem 0;
 }
 
 .projects-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--project-container);
-  border-radius: 2rem;
-  width: 80%;
-  gap: 2.5rem;
-  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem gray;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--project-container);
+	border-radius: 2rem;
+	width: 80%;
+	gap: 2.5rem;
+	box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem gray;
 }
 
 .projects-box_item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-size: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 1rem;
 }
 
 .projects-box_title {
-  font-size: 2rem;
-  font-family: 'JalnanGothic';
-  @media (max-width: 768px) {
-    font-size: 1.5rem;
-  }
+	font-size: 2rem;
+	font-family: 'JalnanGothic';
+	@media (max-width: 768px) {
+		font-size: 1.5rem;
+	}
 }
 
 .projects-box_img_box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .projects-box_img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 35rem;
-  border-radius: 2rem;
-  @media (max-width: 768px) {
-    height: 20rem;
-  }
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 35rem;
+	border-radius: 2rem;
+	@media (max-width: 768px) {
+		height: 20rem;
+	}
 }
 .projects-description_container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 3rem;
-  word-break: break-all;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+	word-break: break-all;
 }
 .projects-links {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
 }
 
 .projects-box_github:hover {
-  color: var(--project-links);
+	color: var(--project-links);
 }
 
 .projects-box_site_box:hover {
-  color: var(--project-links);
+	color: var(--project-links);
 }

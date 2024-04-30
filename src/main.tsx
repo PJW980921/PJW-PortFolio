@@ -6,16 +6,16 @@ const container = document.getElementById('root') as HTMLElement;
 const root = ReactDOM.createRoot(container);
 
 if (container.hasChildNodes()) {
-  ReactDOM.hydrateRoot(
-    container,
-    <HelmetProvider>
-      <App />
-    </HelmetProvider>
-  );
+	ReactDOM.hydrateRoot(
+		container,
+		<HelmetProvider>
+			<App />
+		</HelmetProvider>,
+	);
 } else {
-  root.render(
-    <HelmetProvider>
-      <App />
-    </HelmetProvider>
-  );
+	root.render(
+		<HelmetProvider>
+			<App />
+		</HelmetProvider>,
+	);
 }
